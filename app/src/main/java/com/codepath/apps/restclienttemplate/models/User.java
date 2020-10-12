@@ -15,7 +15,8 @@ public class User {
         user.name = jsonObject.getString( "name");
         user.screenName = jsonObject.getString( "screen_name");
         user.profileImageUrl = jsonObject.getString("profile_image_url_https");
-        user.createdAt = jsonObject.getString("created_at");
+        //user.createdAt = TimeFormatter.getTimeStamp(jsonObject.getString("created_at"));
+        //user.createdAt = TimeFormatter.getTimeStamp(jsonObject.getString("created_at"));
         return user;
     }
 }
