@@ -26,6 +26,7 @@ public class ComposeActivity extends AppCompatActivity {
     EditText etCompose;
     Button btnTweet;
 
+
     TwitterClient client;
 
     @Override
